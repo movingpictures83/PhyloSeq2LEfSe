@@ -1,0 +1,2 @@
+Prefix plugins/PhyloSeq2LEfSe/example
+Plugin PhyloSeq2LEfSe inputfile parameters.phyloseq2lefse.txt outputfile otus.lefse.txt
