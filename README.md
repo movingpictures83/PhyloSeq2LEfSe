@@ -12,5 +12,6 @@ The plugin accepts as input a tab-delimited parameter file of keyword value pair
 OTU: OTU table
 TAX: TAX table
 META: metadata
+LEVEL: phylogenetic level to perform analysis (1-7, where 1 is kingdom and 7 is species)
 
 The output TXT file can then be analyzed by LEfSe for potential biomarkers

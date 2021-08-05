@@ -1,3 +1,4 @@
 OTU	otu_table.csv
 TAX	tax_table.csv
 META	sample_data.csv
+LEVEL	6
