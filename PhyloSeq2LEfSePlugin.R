@@ -15,7 +15,7 @@ input <- function(inputfile) {
   sample_file <- paste(pfix, toString(parameters["META", 2]), sep="/")
   x <<- read_csv2phyloseq(otu.file = otu_file, taxonomy.file = tax_file, metadata.file = sample_file, sep=",")
   level <<- as.numeric(parameters["LEVEL", 2])
-  desc <<- toString(parameters["DESC", 2])
+  descr <<- toString(parameters["DESC", 2])
 }
 
 run <- function() {
@@ -94,5 +94,5 @@ output <- function(outputfile) {
 	  }
   }
   print(taxalevels)
-      	phyloseq2lefse(x, c(desc), file.name=outputfile, taxa.levels=taxalevels, transpose.otus=TRUE)
+      	phyloseq2lefse(x, c(descr), file.name=outputfile, taxa.levels=taxalevels, transpose.otus=TRUE)
 }
